@@ -1,0 +1,20 @@
+{
+  "name": "sharepoint-ocr-lookup",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@azure/msal-browser": "^4.26.0",
+    "pdfjs-dist": "^6.2.108",
+    "tesseract.js": "^6.0.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.2",
+    "vite": "^7.1.3"
+  }
+}
